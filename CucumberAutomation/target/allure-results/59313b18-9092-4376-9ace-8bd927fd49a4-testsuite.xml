@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1549818561595" stop="1549818770276" version="1.4.22" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Suite : Test - 1</name>
+    <title>Suite : Test - 1</title>
+    <test-cases>
+        <test-case start="1549818562056" stop="1549818769842" status="passed">
+            <name>feature[Add Product into Cart]</name>
+            <description>Runs Cucumber Features</description>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Appirio-13246"/>
+                <label name="thread" value="13828@Appirio-13246.pool-1-thread-1(12)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
