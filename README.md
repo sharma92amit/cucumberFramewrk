@@ -12,6 +12,8 @@ automationpractice.com cucumber script based on page object model
 6. Testng
 7. Junit
 8. Extend Report 
+9. Findby
+10. Tags
 
 Output Folder Contains the Execution Report
 
