@@ -18,7 +18,7 @@ import cucumber.api.testng.TestNGCucumberRunner;
 		features="src/test/java/com/bdd/feature/Automate.feature",
 		glue={"com/automation/stepdefination"},
 		plugin={"pretty","com.cucumber.listener.ExtentCucumberFormatter:"},
-		tags={"@RegistrationTest"},
+		tags={"@CartTest,@MenuTest,@ProductTest,@RegistrationTest"},
 		monochrome=true,
 		dryRun=false
 		)
