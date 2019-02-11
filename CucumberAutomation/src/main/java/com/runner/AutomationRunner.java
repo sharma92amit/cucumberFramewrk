@@ -1,19 +1,16 @@
 package com.runner;
 
-import org.junit.runner.RunWith;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
-
 import com.util.Base.TestBase;
 
 import cucumber.api.CucumberOptions;
-import cucumber.api.junit.Cucumber;
 import cucumber.api.testng.CucumberFeatureWrapper;
 import cucumber.api.testng.TestNGCucumberRunner;
 
-@RunWith(Cucumber.class)
+
 @CucumberOptions(
 		features="src/test/java/com/bdd/feature/Automate.feature",
 		glue={"com/automation/stepdefination"},
